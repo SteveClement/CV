@@ -15,6 +15,8 @@
 % Modified by:
 % @SteveClement
 % https://github.com/SteveClement/CV.git
+% 
+% Inspirations from: https://github.com/Nadorrano/cv-friggeri-x/
 %
 % License:
 % CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
@@ -27,7 +29,12 @@
 
 \documentclass[a4paper]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
 \usepackage{fixltx2e} % Used for SYN2cat (to subscript the 2/di)
+\usepackage{marvosym} % needed to print glyphs for email, cell phone etc.
 %%\addbibresource{bibliography.bib} % Specify the bibliography file to include publications
+
+% The followin enable CJK and needs for Japanese the fonts from: http://ipafont.ipa.go.jp/old/ipafont/download.html
+\usepackage{zxjatype}
+%\usepackage[ipa]{zxjafont}
 
 \begin{document}
 
@@ -39,21 +46,20 @@
 
 \begin{aside} % In the aside, each new line forces a line break
 \section{contact}
-133, rue de Reckenthal
+\pin \hfill 133, r. de Reckenthal
 L-2410, Strassen
 Luxembourg
-+352 691 20 33 66
-%%\href{mailto:steve@localhost.lu}{steve@localhost.lu}
-%%\href{http://www.SteveClement.lu}{http://SteveClement.lu}
-%%\href{http://twitter.com/SteveClement}{tw://@SteveClement}
-{steve@localhost.lu}
-{http://SteveClement.lu}
-{tw://@SteveClement}
-{li://in/steveclement3}
+~
+{\Large\textcolor{gray}{\Mobilefone}} \hfill +352 20 33 66
+{\Large\textcolor{gray}{\Letter}}\hfill\href{mailto:steve@localhost.lu}{steve@localhost.lu}
+~
+\tlogo \hfill \href{http://twitter.com/johnsmith}{@SteveClement}
+\llogo \hfill \href{http://linkedin.com/johnsmith}{in://steveclement3}
+\href{http://SteveClement.lu}{http://SteveClement.lu}
 \section{languages}
 Luxembourgish native
 English, French \& German fluency
-Japanese student
+Japanese 学生
 \section{programming}
 {\color{red} $\varheartsuit$} Python
 JavaScript, PHP
@@ -122,6 +128,37 @@ Junior position in a leading ISP to build secure infrastructure \& HA systems fo
 %------------------------------------------------
 \end{entrylist}
 
+%----------------------------------------------------------------------------------------
+%	NOTABLE MISSIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{missions}
+\begin{entrylist}
+%------------------------------------------------
+\entry{March 2019}
+{International Monetary Fund}
+{IMF, Kyrgyz Republic}
+{\emph{Technical lead} \\ for a capacity building mission for the National Kyrgyz central bank.}
+%------------------------------------------------
+\entry{March 2020}
+{Alliance for Financial Inclusion}
+{AFI, Malaysia, KL}
+{\emph{Technical lead} \\ to train and explain the benefits and challenges of information sharing to the central bank governors of the AFI network members.}
+%------------------------------------------------
+\entry{17'--Now}
+{APAC liason}
+{Tokyo, Japan}
+{Co-operation efforts between the Japanese CSIRT landscape (public and private) to ease the reaction times in case of cyberincidents between the continents.}
+%------------------------------------------------
+\entry{17'--Now}
+{AUSCERT liason}
+{Brisbane, AU}
+{Direct contact point for the Australian CSIRT AUSCERT. CIRCL is a collaborator to help growth, adaptability and enabling AUSCERT to provide better services to its members.}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
 %%% Only force new-page if not enough content on experience page
 \newpage
 

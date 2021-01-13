@@ -5,6 +5,18 @@
 \DeclareOption*{%
   \PassOptionsToClass{\CurrentOption}{article}%
 }
+
+% Add support for A4 paper
+\newif\ifafourpaper
+
+\afourpaperfalse
+
+\DeclareOption{a4paper}
+   {\setlength\paperheight {297mm}%
+    \setlength\paperwidth  {210mm}%
+    \afourpapertrue%
+   }
+
 \ProcessOptions\relax
 \LoadClass{article}
 
@@ -26,6 +38,19 @@
 \definecolor{purple}{HTML}{D3A4F9}
 \definecolor{red}{HTML}{FB4485}
 \definecolor{blue}{HTML}{6CE0F1}
+\definecolor{wine}{HTML}{A2033c}
+\definecolor{fblue}{HTML}{3D539E}
+\definecolor{tblue}{HTML}{55ACEE}
+\definecolor{lblue}{HTML}{0077B5}
+\definecolor{vkblue}{HTML}{A6B8D4}
+
+\ifdefined\@cv@lightheader
+  \colorlet{fillheader}{white}
+  \colorlet{header}{gray}
+\else 
+  \colorlet{fillheader}{gray}
+  \colorlet{header}{white}
+\fi
 
 \ifdefined\@cv@print
   \colorlet{green}{gray}
@@ -40,6 +65,7 @@
   \colorlet{fillheader}{gray}
   \colorlet{header}{white}
 \fi
+
 \colorlet{textcolor}{gray}
 \colorlet{headercolor}{gray}
 
@@ -119,14 +145,22 @@
   \par\vspace{\parskip}
 }
 
-\renewcommand{\subsection}[2]{
+\renewcommand{\subsection}[1]{
   \par\vspace{.5\parskip}%
-  \Large\headingfont\color{headercolor} #2%
+  {\Large\headingfont\color{headercolor} #1}
+  \par\vspace{.25\parskip}%
+}
+
+\renewcommand{\subsubsection}[2]{
+  \par\vspace{.5\parskip}%
+  {\Large\headingfont\color{headercolor} #2}
   \par\vspace{.25\parskip}%
 }
 
 \pagestyle{empty}
 
+\RequirePackage{enumitem}
+\setitemize{noitemsep, leftmargin=\parindent, labelindent=\parindent}
 
 %%%%%%%%%%%%%%%%%%%%
 % List environment %
@@ -138,15 +172,28 @@
 }{%
   \end{tabular*}
 }
+
+% Set a4paper and US letter size as explained here:
+% http://tex.stackexchange.com/questions/248399/trasform-friggeri-cv-to-a4
+
 \renewcommand{\bfseries}{\headingfont\color{headercolor}}
-\newcommand{\entry}[4]{%
-  #1&\parbox[t]{11.8cm}{%
+\ifafourpaper
+  \newcommand{\entry}[4]{%
+  \parbox[t]{2cm}{\hfill#1}&\parbox[t]{11.1cm}{%
+  \textbf{#2}%
+  \hfill%
+  {\footnotesize\addfontfeature{Color=lightgray} \textit{#3}}\\%
+  #4\vspace{\parsep}%
+  }\\}
+\else
+  \newcommand{\entry}[4]{%
+    \parbox[t]{2cm}{\hfill#1}&\parbox[t]{11.6cm}{%
     \textbf{#2}%
     \hfill%
-    {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
+    {\footnotesize\addfontfeature{Color=lightgray} \textit{#3}}\\%
     #4\vspace{\parsep}%
-  }\\}
-
+    }\\}
+\fi
 
 %%%%%%%%%%%%%%
 % Side block %
@@ -287,6 +334,11 @@
     {}%
 }
 
+\defbibheading{bibheading}[\bibname]{%
+   \subsubsection*{#1}
+   \markboth{#1}{#1}
+}
+
 \newcommand{\printbibsection}[2]{
   \begin{refsection}
     \nocite{*}
@@ -307,3 +359,45 @@
 
 \RequirePackage[left=6.1cm,top=2cm,right=1.5cm,bottom=2.5cm,nohead,nofoot]{geometry}
 \RequirePackage{hyperref}
+\hypersetup{
+	hidelinks,
+	%colorlinks,
+	linkcolor=red,
+	citecolor=red,
+	filecolor=red,
+	urlcolor = blue
+}
+
+% Newcommands for glyph printing
+\RequirePackage{graphicx}
+
+% Add a Google-style pin
+\newcommand*{\pin}{%
+  \textcolor{gray}{\includegraphics[height=1em]{resources/pin}}%
+}
+
+% Add fb logo
+\newcommand*{\flogo}{%
+  \textcolor{fblue}{\includegraphics[height=1em]{resources/f_logo}}%
+}
+
+% Add twitter logo
+\newcommand*{\tlogo}{%
+  \textcolor{tblue}{\includegraphics[height=1em]{resources/twitter_logo}}%
+}
+
+% Add linkedin logo
+\newcommand*{\llogo}{%
+  \textcolor{lblue}{\includegraphics[height=1em]{resources/linkedin_logo}}%
+}
+
+% Add vk logo
+\newcommand*{\vklogo}{%
+  \textcolor{vkblue}{\includegraphics[height=1em]{resources/vk_logo}}%
+}
+
+% A fix for \href{}{} colors not working with fontspec
+\makeatletter
+\def\HyColor@@@@UseColor#1\@nil{\addfontfeatures{Color=#1}}
+\makeatother
+
