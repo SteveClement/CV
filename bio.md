@@ -24,4 +24,4 @@ Steve Clement has been working at Security Made in Luxembourg since the creation
 
 Working in the information security industry for well over 20 years, his passions turn around sharing knowledge with the information security community at large. Steve follows international developments in cyber strategies, cyber governance developments as well as the awareness raised around threat information sharing in a globalized context. 
 
-With the creation of the CY-DB Eco System platform he is able to combine his knowledge of technologies with his past life of an successful business entrepreneur to shap the future of Luxembourgs Cyber Security Eco system, at home and abroad.
+With the creation of the CY-DB Eco System platform, he is able to combine his knowledge of technologies with his past life of a successful business entrepreneur to shape the future of Luxembourg’s Cyber Security Eco system, at home and abroad.
