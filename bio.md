@@ -20,7 +20,7 @@ Further on Steve is a strong advocate for Free and Open Source Soft-/Hard-ware i
 
 Biz Bios:
 
-Steve Clement has been working as a CyberSecurity Engineer Security Made in Luxembourg since its creation in 2010.
+Steve Clement has been working as a CyberSecurity Engineer at Security Made in Luxembourg since its creation in 2010.
 
 Working in the information security industry for well over 20 years, his passions turn around sharing knowledge with the information security community at large.
 Steve follows international developments in cyber strategies, cyber governance developments as well as the capacity-building efforts around threat information sharing in a globalized context.
