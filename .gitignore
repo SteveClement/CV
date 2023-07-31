@@ -167,3 +167,11 @@ sympy-plots-for-*.tex/
 *.bak
 *.sav
 
+# repo ignores
+
+remotes/*.txt
+attention.tex
+COMPANYADDRESS.tex
+COMPANYNAME.tex
+CORESERVICE.tex
+JOBAPPLICATION.tex
