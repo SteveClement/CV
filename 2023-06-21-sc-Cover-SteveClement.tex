@@ -1,0 +1,159 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%%\colorlet{awesome}{awesome-nephritis}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+\definecolor{awesome}{HTML}{CFB257}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+\photo[circle,noedge,left]{profile}
+\name{Steve}{Clement}
+\position{Incident Responder{\enskip\cdotp\enskip}Technical Security Expert}
+\address{133, rue de Reckenthal, Strassen, Luxembourg}
+
+\mobile{(+352) 691 20 33 66}
+\email{steve@localhost.lu}
+%\homepage{www.localhost.lu}
+\github{SteveClement}
+\linkedin{SteveClement3}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+\twitter{@SteveClement}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra informations}
+
+\quote{``InfoSec: Building resilient bridges for innovating \& safeguarding against emergent threats."}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {Company Recruitment Team}
+  {\input{COMPANYADDRESS}}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{\input{JOBAPPLICATION}}
+% How the letter is opened
+\letteropening{Dear team,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Steve Clement~~~·~~~Cover Letter}
+  {}
+
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+
+\lettersection{Important}
+
+\input{attention}
+
+\lettersection{About Me}
+With a strong foundation in information security and a passion for technological innovation, I bring 15 years of hands-on experience in devising robust cybersecurity strategies and implementing cutting-edge measures to defend against emerging threats. My background encompasses diverse roles, from conducting risk assessments and vulnerability assessments to monitoring network traffic and proactively mitigating potential security breaches.
+
+\lettersection{Why \input{COMPANYNAME}?}
+I am writing to express my keen interest in the Cybersecurity position at \input{COMPANYNAME}, a company that has captivated the world with its delectable \input{CORESERVICE} creations and unwavering commitment to quality. As a highly motivated and skilled cybersecurity professional, I am thrilled by the prospect of contributing my expertise to safeguarding \input{COMPANYNAME}'s digital assets and ensuring the continued success of this renowned brand.
+Having closely followed \input{COMPANYNAME}'s remarkable journey and impressive growth, I am truly impressed by the company's dedication to delivering exceptional products to its customers while upholding a culture of integrity and responsibility. I believe that my skill set aligns perfectly with \input{COMPANYNAME}'s commitment to excellence, and I am eager to collaborate with your talented team to reinforce \input{COMPANYNAME}'s security posture and protect its digital infrastructure.
+
+\lettersection{Why Me?}
+My key qualifications include:
+
+\begin{itemize}
+  \item[--] Expertise in developing and implementing robust cybersecurity frameworks, including incident response plans, to detect and mitigate cyber threats effectively.
+  \item[--] Proficiency in conducting penetration testing, ethical hacking, and security audits to identify vulnerabilities and provide actionable recommendations for improvement.
+  \item[--] In-depth knowledge of industry-standard security protocols, compliance regulations, and best practices to ensure adherence to international data protection standards.
+  \item[--] Proven track record of collaborating with cross-functional teams to raise security awareness, deliver training programs, and foster a security-conscious culture within organizations.
+  \item[--] Experience with advanced threat intelligence, security information and event management (SIEM) solutions, and other cybersecurity technologies to enhance overall threat detection capabilities.
+  \item[--] A passion for staying up-to-date with the latest cybersecurity trends and actively seeking opportunities for professional development and certifications.
+\end{itemize}
+I am convinced that my dedication to maintaining the confidentiality, integrity, and availability of \input{COMPANYNAME}'s digital assets, combined with my ability to think strategically and adapt to rapidly evolving cybersecurity landscapes, would make me a valuable asset to your cybersecurity team.
+
+\lettersection{Thanks}
+Thank you for considering my application. I am eager to discuss how my skills and experience align with \input{COMPANYNAME}'s cybersecurity goals in more detail during a personal interview. I am available at your earliest convenience and can be reached via email or by phone, see header for details.
+
+Once again, I appreciate the opportunity to apply for this exciting role at \input{COMPANYNAME}, and I look forward to the possibility of contributing to the continued success and security of this esteemed \input{CORESERVICE} company.
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+
+\end{document}
