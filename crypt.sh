@@ -38,4 +38,4 @@ unpack () {
 [[ ${1} == 'enc' ]] && encrypt
 [[ ${1} == 'dec' ]] && decrypt
 [[ ! -z ${2} ]] && unpack $2
-[[ -z ${1} ]] && echo "${0} enc/dec"
+[[ -z ${1} ]] && echo "${0} enc/dec/unpack"

@@ -3,6 +3,30 @@ Latest version of my CV, typesetted in Helvetica and using colors inspired by Mo
 
 Uses TikZ for the header, XeTeX and fontspec to use Helvetica Neue, biblatex to print my publications and textpos for the aside.
 
+# Usage for Cover Letter
+
+To protect the data who will receive the Cover Letter you can use `crypt.sh` to encrypt/decrypt the data.
+
+The following command will create all necessay .tex files that will be used by the cover letter main file.
+
+```
+./crypt.sh unpack sample
+```
+
+sample.txt can be any name but needs to end in .txt
+```
+COMPANYADDRESS:ACME Inc.\\123, Foo Street\\L-4200 Luxembourg, Luxembourg
+JOBAPPLICATION:Job Application for cybersecurity cybering \& responding expert
+COMPANYNAME:ACME
+CORESERVICE:amazing cyber services
+```
+
+```
+./crypt.sh enc
+```
+Will encrypt the sensitive files in a GPG Armored file.
+
+The unpack command creates the files: [COMPANYNAME,JOBAPPLICATION,COMPANYNAME,CORESERVICE].tex that will be ingested with \input{FILE} in the main TeX document.
 
 # License
 
