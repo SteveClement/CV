@@ -25,6 +25,17 @@ decrypt () {
   popd
 }
 
+unpack () {
+  IFS=$'\n'
+  for r in $(ls remotes/$1.txt); do
+    for l in $(cat ${r}); do
+        fn=$(echo ${l}| cut -f1 -d:).tex
+        echo ${l}| cut -f2 -d: > ${fn}
+    done
+  done
+}
+
 [[ ${1} == 'enc' ]] && encrypt
 [[ ${1} == 'dec' ]] && decrypt
+[[ ! -z ${2} ]] && unpack $2
 [[ -z ${1} ]] && echo "${0} enc/dec"
