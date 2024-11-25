@@ -18,6 +18,12 @@ Experienced in the security of Unix systems like Linux or OpenBSD, his passions 
  
 Further on Steve is a strong advocate for Free and Open Source Soft-/Hard-ware in a world with fewer intellectual boundaries. With over 20 years of experience in the field of technologies, start-ups and hacking his interests have centred around threat sharing communities and efficient threat intelligence sharing in general. Together with a varied team of experts at CIRCL he is looking forward to having unified and standardized mechanisms of a technical and non-technical nature, to ease the information security data exchange via flexible but viable standards.
 
+Meet Steve Clement, a veteran security engineer integral to Luxembourg's House of CyberSecurity (LHC) since 2008. Specializing in Unix system security, like Linux and OpenBSD, Steve's passion lies in sharing knowledge within the information security community.
+
+He tracks global cyber strategy and governance trends, focusing on enhancing threat information sharing across a connected world. With over 20 years of experience in technology, start-ups, and hacking, Steve advocates for Free and Open Source Software/Hardware to break down barriers.
+
+At LHC, Steve aids private sector incidents and supports cybercrime victims, affirming the pivotal role of efficient indicator of compromise (IoC) sharing schemes in robust IT strategies. Collaborating with experts, he aims to standardize and streamline technical and non-technical information security data exchange for a safer digital future.
+
 Biz Bios:
 
 Steve Clement has been working as a CyberSecurity Engineer at Security Made in Luxembourg since its creation in 2010.
