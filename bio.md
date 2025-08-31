@@ -1,40 +1,33 @@
-Micro
+# Bio.md
 
-Short
+### Micro
+Steve Clement is a security engineer, entrepreneur, and open source advocate with over 20 years of experience in technology, hacking, and education.  
 
-Long
+---
 
-Steve Clement is a security engineer and has founded various tech companies throughout the years, with the latest exit being ION Group.
-Experienced in Unix systems like Open and FreeBSD his passions turn around sharing this knowledge to the hungry and foolish.
-Further on Steve is a strong advocate for Free and Open Source Soft-/Hard-ware in an open world with less intellectual boundaries.
-With over 20 years of experience in the field of technologies, start-ups and hacking his interests have centred around education and hardware projects lately.
+### Short  
+Steve Clement is a seasoned security engineer and founder of multiple tech ventures, including a successful exit with ION Group. Specializing in Unix systems such as OpenBSD, FreeBSD, and Linux, he is passionate about sharing knowledge and advancing free and open source software and hardware. With two decades in technology, start-ups, and cybersecurity, his recent work centers on education, threat intelligence, and collaborative hardware projects.  
 
+---
 
-Tech Bio:
+### Long  
+Steve Clement is a veteran security engineer with more than 20 years of experience across technology, startups, and hacking. He has founded several companies, including a successful exit with ION Group, and has been a driving force in Europe’s cybersecurity landscape.  
 
-Steve Clement is a security engineer at the Computer Incident Response Center Luxembourg since its inception in 2008.
- 
-Experienced in the security of Unix systems like Linux or OpenBSD, his passions turn around sharing knowledge with the information security community at large. Steve follows international developments in cyber strategies, cyber governance developments as well as the awareness raised around threat information sharing in a globalized context. During the past years he has helped manage countless private sector incidents and supported cyber crime victims with Team CIRCL and solidified his conviction that a key element in an efficient information technology strategy is an efficient indicator of compromise (IoC) sharing scheme.
- 
-Further on Steve is a strong advocate for Free and Open Source Soft-/Hard-ware in a world with fewer intellectual boundaries. With over 20 years of experience in the field of technologies, start-ups and hacking his interests have centred around threat sharing communities and efficient threat intelligence sharing in general. Together with a varied team of experts at CIRCL he is looking forward to having unified and standardized mechanisms of a technical and non-technical nature, to ease the information security data exchange via flexible but viable standards.
+Since 2008, Steve has served as a security engineer at the Computer Incident Response Center Luxembourg (CIRCL), where he has managed countless incidents, supported cybercrime victims, and championed efficient indicator of compromise (IoC) sharing as a cornerstone of robust IT strategies.  
 
-Meet Steve Clement, a veteran security engineer integral to Luxembourg's House of CyberSecurity (LHC) since 2008. Specializing in Unix system security, like Linux and OpenBSD, Steve's passion lies in sharing knowledge within the information security community.
+Passionate about Unix systems, open collaboration, and knowledge-sharing, Steve actively tracks international developments in cyber strategy and governance. A strong advocate for Free and Open Source Software and Hardware, he envisions a world with fewer intellectual boundaries and more resilient digital communities. His current focus lies in education, hardware innovation, and strengthening global threat intelligence sharing through open, standardized mechanisms.  
 
-He tracks global cyber strategy and governance trends, focusing on enhancing threat information sharing across a connected world. With over 20 years of experience in technology, start-ups, and hacking, Steve advocates for Free and Open Source Software/Hardware to break down barriers.
+---
 
-At LHC, Steve aids private sector incidents and supports cybercrime victims, affirming the pivotal role of efficient indicator of compromise (IoC) sharing schemes in robust IT strategies. Collaborating with experts, he aims to standardize and streamline technical and non-technical information security data exchange for a safer digital future.
+### Biz Bio  
+Steve Clement has been working as a cybersecurity engineer at Security Made in Luxembourg since its creation in 2010. With a career spanning more than two decades, he combines technical depth with entrepreneurial experience, contributing to capacity-building initiatives and promoting threat information sharing across international communities.  
 
-Biz Bios:
+---
 
-Steve Clement has been working as a CyberSecurity Engineer at Security Made in Luxembourg since its creation in 2010.
+### openXeco / Ecosystem Add-on  
+Through the creation of the openXeco platform, Steve merges his technical expertise with his entrepreneurial background to help shape Luxembourg’s cybersecurity ecosystem at home and abroad.  
 
-Working in the information security industry for well over 20 years, his passions turn around sharing knowledge with the information security community at large.
-Steve follows international developments in cyber strategies, cyber governance developments as well as the capacity-building efforts around threat information sharing in a globalized context.
+---
 
-openXeco/EcoSystem:
-
-With the creation of the openXeco platform, he is able to combine his knowledge of technologies with his past life of a successful business entrepreneur to shape the future of Luxembourg’s Cyber Security Eco system, at home and abroad.
-
-ACRC:
-
-Having been part of the success story that is CIRCL and the threat intelligence platform called MISP. He is a good fit to lead the ACRC ISAC efforts on the African continent.
+### ACRC Add-on  
+Having contributed to the success of CIRCL and the development of the MISP threat intelligence platform, Steve is well positioned to lead ACRC’s ISAC efforts across the African continent, supporting large-scale cybersecurity collaboration.  
