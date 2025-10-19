@@ -6,7 +6,8 @@ Steve Clement is a security engineer, entrepreneur, and open source advocate wit
 ---
 
 ### Short
-Steve Clement is a seasoned security engineer and founder of multiple tech ventures, including a successful exit with ION Group. Specializing in Unix systems such as OpenBSD, FreeBSD, and Linux, he is passionate about sharing knowledge and advancing free and open source software and hardware. With two decades in technology, start-ups, and cybersecurity, his recent work centers on education, threat intelligence, and collaborative hardware projects. As **team lead of Range42**, he oversees the design and implementation of an open-source cyber range platform supporting training, standardisation, and research.
+Steve Clement is the team-lead of Range42, Luxembourg’s national cyber-range initiative, and a seasoned security engineer and founder of multiple tech ventures including a successful exit with ION Group. Specializing in Unix systems such as OpenBSD, FreeBSD, and Linux, he is passionate about sharing knowledge and advancing free and open source software and hardware. With two decades in technology, start-ups, and cybersecurity, his recent work centers on education, threat intelligence, and collaborative hardware projects. As **team lead of Range42**, he oversees the design and implementation of an open-source cyber range platform supporting training, standardisation, and research.
+Connect with Steve on [LinkedIn](https://linkedin.com/steveclement3) or via email ([steve@localhost.lu](mailto:steve@localhost.lu)) … for collaboration on open-source cyber-range initiatives, hardware security research, or training programmes.
 
 ---
 
@@ -15,6 +16,7 @@ Steve Clement is a veteran security engineer with more than 20 years of experien
 
 Since 2008, Steve has served as a security engineer at the Computer Incident Response Center Luxembourg (CIRCL), where he has managed countless incidents, supported cybercrime victims, and championed efficient indicator of compromise (IoC) sharing as a cornerstone of robust IT strategies.
 
+In his capacity as team-lead for Range42, Steve Clement oversees a multidisciplinary engineering and threat-intelligence team, defining the nation’s cyber-training infrastructure, open-source automation frameworks, and international collaboration platforms.
 As **team lead of Range42**, Luxembourg’s national cyber range initiative under the NCC-LU program, he coordinates technical development, international collaboration, and standardisation efforts related to cyber range design and automation. His leadership extends beyond technical architecture into governance, open data practices, and educational outreach — bridging academia, government, and industry through open frameworks.
 
 Passionate about Unix systems, open collaboration, and knowledge-sharing, Steve actively tracks international developments in cyber strategy and governance. A strong advocate for Free and Open Source Software and Hardware, he envisions a world with fewer intellectual boundaries and more resilient digital communities. His current focus lies in education, hardware innovation, and strengthening global threat intelligence sharing through open, standardized mechanisms such as those developed within **Range42**.
